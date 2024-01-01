@@ -8,8 +8,8 @@
 
 <body>
 
-	<post>
-		<form>
+
+		<form method="post">
 		<label for="name">Name </label>
 		<input type="text" id="name" placeholder="Name" required>
 
@@ -23,14 +23,14 @@
 		<input type="radio" id="gender_f" name="gender" required> Female </label>
 		</label>
 		<br>
-		<label for="cars">Car Brands</label>
+		<label for="cars">Car Brands
 		<select id="cars" required>
 			<option value="NA">Please choose an option</option>
 			<option value="bmw">BMW</option>
 			<option value="audi">Audi</option>
 			<option value="swift">Swift</option>
 		</select>
-
+		</label>
 		<label for="age">Age </label>
 		<input type="number" id="age" placeholder="Age" required>
 	
@@ -48,7 +48,7 @@
 	
 		<input type="submit">
 		</form>
-	</post>
+
 
 	
     <script type="text/javascript" src="./script.js">
